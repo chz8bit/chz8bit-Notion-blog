@@ -1,8 +1,8 @@
 const BLOG = {
-  title: 'chz8bit's blog',
+  title: "chz8bit's blog",
   author: 'chz8bit',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
+  email: '',
+  link: 'https://chz8bit.vercel.app',
   description: 'This gonna be an awesome website.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -22,8 +22,7 @@ const BLOG = {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  //notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！b1bbcae809014e3a8cbc95754c919e2d
-  notionPageId: 'b1bbcae809014e3a8cbc95754c919e2d', // DO NOT CHANGE THIS！！！
+  notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
     provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
