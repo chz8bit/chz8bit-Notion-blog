@@ -82,7 +82,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                     height="24"
                     className="fill-current text-black dark:text-white"
                   />
-                  <rect width="24" height="24" fill="url(#paint0_radial)" />
+                  <rect width="24" height="24" fill="url(https://images.cnblogs.com/cnblogs_com/blogs/510030/galleries/2242418/o_221112042835_mmexport1667280237920.png)" />
                   <defs>
                     <radialGradient
                       id="paint0_radial"
