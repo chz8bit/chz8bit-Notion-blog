@@ -1,7 +1,7 @@
 const BLOG = {
   title: "chz8bit's blog",
   author: 'chz8bit',
-  email: '',
+  email: 'chz_work@outlook.com',
   link: 'https://chz8bit.vercel.app',
   description: 'just talk',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
