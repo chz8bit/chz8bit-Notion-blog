@@ -7,10 +7,9 @@ const NavBar = () => {
   const locale = useLocale()
   const links = [
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
-    { id: 1, name: locale.NAV.HISTORY, to: '/history', show: true },
-    { id: 2, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 3, name: locale.NAV.RSS, to: '/feed', show: true },
-    { id: 4, name: locale.NAV.SEARCH, to: '/search', show: true }
+    { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
+    { id: 2, name: locale.NAV.RSS, to: '/feed', show: true },
+    { id: 3, name: locale.NAV.SEARCH, to: '/search', show: true }
   ]
   return (
     <div className="flex-shrink-0">
@@ -83,7 +82,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
                     height="24"
                     className="fill-current text-black dark:text-white"
                   />
-                  <rect width="24" height="24" fill="url(https://images.cnblogs.com/cnblogs_com/blogs/510030/galleries/2242418/o_221112042835_mmexport1667280237920.png)" />
                   <defs>
                     <radialGradient
                       id="paint0_radial"
